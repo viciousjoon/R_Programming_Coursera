@@ -127,3 +127,7 @@ hw1[c(30),]
 sub <- subset(hw1, Month==6 & !is.na(Ozone), select = Ozone)
 sub
 apply(sub,2,max)
+
+library(swirl)
+swirl()
+
